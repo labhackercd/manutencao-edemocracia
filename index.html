@@ -8,20 +8,33 @@
     <link rel="shortcut icon" href="https://user-images.githubusercontent.com/20937190/119549773-f554ea80-bd6d-11eb-98bb-3942ca9cb28c.png">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+        html, body {
+            height: 100%;
+        }
+
         body {
-            margin: 0;
             font-family: 'Open Sans';
             background-color: #336655;
         }
+
+        .content {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
         
         .navbarLogo {
-            width: 100%;
-            height: 20vh;
+            width: 50%;
             flex-direction: column;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding-bottom: 5rem;
         }
 
         .navbarLogo p {
@@ -33,28 +46,14 @@
 
         .logo {
             display: block;
-            max-width:500px;
-            max-height:100px;
+            max-width:100%;
             width: auto;
             height: auto;
             margin: 0;
         }
 
-        .content {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
-
         .content h1 {
-            margin: 0;
             font-size: 4rem;
-            padding-bottom: 10px;
         }
 
         .content p {
@@ -65,7 +64,6 @@
     </style>
 </head>
 <body>
-
     <div class="content">
         <div class="navbarLogo">
             <img class="logo" src="https://user-images.githubusercontent.com/20937190/119549326-79f33900-bd6d-11eb-826f-09066c973e1f.png" alt="Logo eDemocracia" />
@@ -75,6 +73,5 @@
         <p>Pedimos desculpas pelo transtorno e agradecemos sua compreensão.</p>
             <p>Previsão de retorno: 27/5</p>
     </div>
-
 </body>
 </html>
